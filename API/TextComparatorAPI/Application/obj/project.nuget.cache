@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N3dtdatGg10/irnvzG5mqb0ZTF+DouIz4GKNSuV2dIYpK5p5GcGyfd72ldFzHKgZn9pNYDag7aC7rIWcZzOYqQ==",
+  "dgSpecHash": "6OA6VqljOXqYurI0KdjDPFFk0UH248WHUEkLHGRec4BcS0CuWDyauY8HDVVue1qvh5pnzbM4fumZCwK3AQb8Pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

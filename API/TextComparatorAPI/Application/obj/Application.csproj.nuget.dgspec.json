@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Application\\Application.csproj": {}
+    "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Application\\Application.csproj": {
+    "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\wikar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Application\\obj\\",
+        "outputPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Domain\\Domain.csproj"
+              "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Domain\\Domain.csproj": {
+    "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\wikar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparatorAPI\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
