@@ -22,7 +22,7 @@ export const ProgressBar = ({
     >
       <Text>{value}%</Text>
       <Progress
-        value={87}
+        value={value}
         bgColor={color === colors.PRIMARY ? colors.PRIMARY2 : colors.SECONDARY2}
         colorScheme={color === colors.PRIMARY ? "green" : "blue"}
         h="40px"
