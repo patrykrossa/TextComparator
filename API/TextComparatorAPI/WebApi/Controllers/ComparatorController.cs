@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Application.Interfaces;
+using Domain.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.IdentityModel.SecurityTokenService;
 using Microsoft.Net.Http.Headers;
@@ -15,8 +17,14 @@ namespace WebApi.Controllers
     public class ComparatorController : ControllerBase
     {
         private const long MaxFileSize = 2L * 1024L * 1024L * 1024L;
+        private readonly IComparatorService _service;
         private byte[] _file1;
         private byte[] _file2;
+
+        public ComparatorController(IComparatorService service)
+        {
+            _service = service;
+        }
 
         [HttpPost]
         [DisableFormValueModelBinding]
@@ -72,8 +80,11 @@ namespace WebApi.Controllers
                     _file2 = fileArray;
                 }
             }
+            await _service.ReceiveFiles(_file1, _file2);
+            await _service.CompareFiles();
 
-            return Ok();
+            var differences = await _service.GetDifferences();
+            return Ok(differences);
         }
     }
 }
