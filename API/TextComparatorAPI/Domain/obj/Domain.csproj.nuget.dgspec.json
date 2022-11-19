@@ -1,31 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {
+    "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\patry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Jakub Wrona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\patry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jakub Wrona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,7 +52,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -53,7 +53,7 @@ namespace Infrastructure.Models
                         _differences.Add(new Difference(startIndex, endIndex, endIndex - startIndex + 1));
                     }
                 }
-                _differences.Add(new Difference(endIndex, _file1.Length - 1, _file1.Length - endIndex));
+                _differences.Add(new Difference(_file2.Length, _file1.Length - 1, _file1.Length - _file2.Length));
             }
             else if (_file1.Length < _file2.Length)
             {
@@ -79,7 +79,7 @@ namespace Infrastructure.Models
                         _differences.Add(new Difference(startIndex, endIndex, endIndex - startIndex + 1));
                     }
                 }
-                _differences.Add(new Difference(endIndex, _file2.Length - 1, _file2.Length - endIndex));
+                _differences.Add(new Difference(_file1.Length, _file2.Length - 1, _file2.Length - _file1.Length));
             }
             else
             {

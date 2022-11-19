@@ -25,10 +25,14 @@
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Swashbuckle.AspNetCore/6.2.3": {
@@ -49,10 +53,14 @@
           "Microsoft.OpenApi": "1.2.3"
         },
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -64,19 +72,27 @@
           "Swashbuckle.AspNetCore.Swagger": "6.2.3"
         },
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Swashbuckle.AspNetCore.SwaggerUI/6.2.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -283,42 +299,46 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\patry\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Jakub Wrona\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\patry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\WebApi\\obj\\",
+      "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\Jakub Wrona\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\patry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jakub Wrona\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj"
+            "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj"
             },
-            "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -348,7 +368,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -360,7 +381,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -369,7 +390,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Pakiet „Microsoft.IdentityModel 7.0.0” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „net6.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "message": "Pakiet „Microsoft.IdentityModel 7.0.0” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1” zamiast platformy docelowej projektu „net6.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
       "libraryId": "Microsoft.IdentityModel",
       "targetGraphs": [
         "net6.0"
