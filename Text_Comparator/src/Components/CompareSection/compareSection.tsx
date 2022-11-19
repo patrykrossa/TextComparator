@@ -1,4 +1,4 @@
-import { Button, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import React, { useState, useEffect } from "react";
 import { FileContainter, primaryColor } from "./fileContainter";
 import { colors } from "../../config";
@@ -102,51 +102,118 @@ export const CompareSection = () => {
       justifyContent="space-between"
       w="100%"
       alignItems="center"
-      mt="40px"
+      mt="10px"
       px="60px"
     >
       {state1 === StateOptions.COMPARING &&
       state2 === StateOptions.COMPARING ? (
-        <Flex justifyContent="space-between" w="100%">
-          <CompareFile
-            file={text1}
-            primaryColor={colors.PRIMARY}
-            bgColor={colors.PANEL_BG_DARK}
-            differences={differences}
-          />
-          <Flex
-            flexDirection="column"
-            justifyContent="center"
-            w="20%"
-            alignItems="center"
-            position="relative"
-          >
-            <Nav />
-            <Flex
-              justifySelf="flex-end"
-              flexDirection="column"
-              w="80%"
-              gridGap="10px"
-              position="absolute"
-              bottom="0"
-            >
-              <Button
-                dropShadow="0 4 4 0"
-                bgColor="transparent"
-                color="white"
-                border="1px solid blue"
+        <Flex w="100%" flexDirection="column" color="white">
+          <Flex justifyContent="space-between" mb="10px">
+            <Flex gridGap="10px" alignItems="center">
+              <Box
+                borderRadius="50%"
+                boxSize="15px"
+                border={`1px solid  ${colors.PRIMARY}`}
+                _hover={{ bgColor: colors.PRIMARY }}
+                cursor="pointer"
+              />
+              <Text
+                color="#ccc"
+                fontSize="14px"
+                fontWeight="300"
+                letterSpacing="10"
               >
-                PREVIEW
-              </Button>
-              <Button>GENERATE</Button>
+                TAKE THE REST FROM THIS FILE
+              </Text>
+            </Flex>
+            <Flex gridGap="10px" alignItems="center">
+              <Text
+                color="#ccc"
+                fontSize="14px"
+                fontWeight="300"
+                letterSpacing="10"
+              >
+                TAKE THE REST FROM THIS FILE
+              </Text>
+              <Box
+                borderRadius="50%"
+                boxSize="15px"
+                border={`1px solid  ${colors.SECONDARY}`}
+                _hover={{ bgColor: colors.SECONDARY }}
+                cursor="pointer"
+              />
             </Flex>
           </Flex>
-          <CompareFile
-            file={text2}
-            primaryColor={colors.SECONDARY}
-            bgColor={colors.PANEL_BG_DARK}
-            differences={differences}
-          />
+          <Flex justifyContent="space-between">
+            <CompareFile
+              file={text1}
+              primaryColor={colors.PRIMARY}
+              bgColor={colors.PANEL_BG_DARK}
+              differences={differences}
+            />
+            <Flex
+              flexDirection="column"
+              justifyContent="center"
+              w="20%"
+              alignItems="center"
+              position="relative"
+            >
+              <Nav />
+              <Flex
+                justifySelf="flex-end"
+                flexDirection="column"
+                w="80%"
+                gridGap="10px"
+                position="absolute"
+                bottom="0"
+              >
+                <Flex
+                  bgGradient={`linear(0deg, ${colors.COMP_PRIMARY_ACCENT} 0%, ${colors.COMP_SECONDARY_ACCENT} 100%)`}
+                  p="1px 1.5px"
+                  borderRadius="6px"
+                  position="relative"
+                  h="45px"
+                  cursor="pointer"
+                >
+                  <Flex
+                    position="absolute"
+                    borderRadius="6px"
+                    bgColor={colors.BG_DARK}
+                    w="98.5%"
+                    h="43px"
+                    color="white"
+                    justifyContent="center"
+                    alignItems="center"
+                    _hover={{
+                      bgGradient: `linear(0deg, ${colors.COMP_PRIMARY_ACCENT} 0%, ${colors.COMP_SECONDARY_ACCENT} 100%)`,
+                    }}
+                    fontWeight="500"
+                  >
+                    PREVIEW
+                  </Flex>
+                </Flex>
+                <Flex
+                  bgGradient={`linear(0deg, ${colors.COMP_PRIMARY_ACCENT} 0%, ${colors.COMP_SECONDARY_ACCENT} 100%)`}
+                  h="43px"
+                  color="white"
+                  fontWeight="500"
+                  _hover={{ opacity: "0.6" }}
+                  borderRadius="6px"
+                  justifyContent="center"
+                  alignItems="center"
+                  cursor="pointer"
+                >
+                  GENERATE
+                </Flex>
+              </Flex>
+            </Flex>
+            <CompareFile
+              file={text2}
+              primaryColor={colors.SECONDARY}
+              bgColor={colors.PANEL_BG_DARK}
+              differences={differences}
+            />
+          </Flex>
         </Flex>
       ) : (
         <>
