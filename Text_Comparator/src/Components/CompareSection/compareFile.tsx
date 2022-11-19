@@ -1,24 +1,37 @@
-import { Flex, Box } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import { colors } from "../../config";
+import { Difference } from "./compareSection";
 
 export const CompareFile = ({
   file,
   primaryColor,
   bgColor,
+  differences,
 }: {
   file: any;
   primaryColor: string;
   bgColor: string;
+  differences: Difference[];
 }) => {
+  const checkIfColor = (index: number) => {
+    let flag = false;
+    differences.forEach((diff: any) => {
+      if (index >= diff.startIndex && index <= diff.endIndex) {
+        flag = true;
+      }
+    });
+    return flag;
+  };
+
   return (
     <Flex
+      color="white"
       w="70vh"
+      maxW="70vh"
       h="80vh"
       bgColor={bgColor}
       px="45px"
-      alignItems="center"
-      flexDirection="column"
-      overflow="auto"
+      overflowY="scroll"
       borderTop={`5px solid ${
         primaryColor === colors.PRIMARY
           ? colors.COMP_PRIMARY_ACCENT
@@ -31,7 +44,7 @@ export const CompareFile = ({
       }`}
       sx={{
         "&::-webkit-scrollbar": {
-          width: "13px",
+          width: "8px",
           //borderRadius: "8px",
           backgroundColor: `rgba(0, 0, 0, 0.1)`,
         },
@@ -48,7 +61,34 @@ export const CompareFile = ({
       }}
       dir={primaryColor === colors.PRIMARY ? "ltr" : "rtl"}
     >
-      <Box dir="ltr">{file}</Box>
+      <Flex dir="ltr" wrap="wrap">
+        {file.split("").map((letter: any, index: number) => {
+          return (
+            <Text
+              bgColor={
+                checkIfColor(index)
+                  ? primaryColor === colors.PRIMARY
+                    ? colors.PRIMARY2
+                    : colors.SECONDARY2
+                  : "transparent"
+              }
+              _hover={
+                checkIfColor(index)
+                  ? {
+                      bgColor:
+                        primaryColor === colors.PRIMARY
+                          ? colors.PRIMARY
+                          : colors.SECONDARY,
+                      cursor: "pointer",
+                    }
+                  : { bgColor: "transparent" }
+              }
+            >
+              {letter}
+            </Text>
+          );
+        })}
+      </Flex>
     </Flex>
   );
 };

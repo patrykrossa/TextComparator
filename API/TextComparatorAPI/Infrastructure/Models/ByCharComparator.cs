@@ -29,7 +29,7 @@ namespace Infrastructure.Models
             int startIndex = 0;
             int endIndex = 0;
 
-            if (_file1.Length >= _file2.Length)
+            if (_file1.Length > _file2.Length)
             {
                 for (int i = 0; i < _file2.Length; i++)
                 {
@@ -55,7 +55,7 @@ namespace Infrastructure.Models
                 }
                 _differences.Add(new Difference(endIndex, _file1.Length - 1, _file1.Length - endIndex));
             }
-            else
+            else if (_file1.Length < _file2.Length)
             {
                 for (int i = 0; i < _file1.Length; i++)
                 {
@@ -80,6 +80,31 @@ namespace Infrastructure.Models
                     }
                 }
                 _differences.Add(new Difference(endIndex, _file2.Length - 1, _file2.Length - endIndex));
+            }
+            else
+            {
+                for (int i = 0; i < _file1.Length; i++)
+                {
+                    if (_file1[i] != _file2[i])
+                    {
+                        startIndex = i;
+                        endIndex = i;
+                        for (int j = i + 1; j < _file1.Length; j++)
+                        {
+                            if (_file1[j] == _file2[j])
+                            {
+                                i = j + 1;
+                                break;
+                            }
+                            endIndex++;
+                        }
+                        if (endIndex == _file1.Length - 1)
+                        {
+                            i = _file1.Length;
+                        }
+                        _differences.Add(new Difference(startIndex, endIndex, endIndex - startIndex + 1));
+                    }
+                }
             }
             await Task.CompletedTask;
         }

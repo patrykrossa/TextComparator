@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {}
+    "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {
+    "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\wikar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\IO-rep\\TextComparator\\API\\TextComparatorAPI\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\patry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\patry\\Desktop\\Studia\\TextComparator\\API\\TextComparatorAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\wikar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\patry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
