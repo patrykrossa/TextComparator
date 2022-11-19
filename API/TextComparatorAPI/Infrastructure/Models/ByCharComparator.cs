@@ -41,7 +41,7 @@ namespace Infrastructure.Models
                         {
                             if (_file1[j] == _file2[j])
                             {
-                                i = j + 1;
+                                i = j;
                                 break;
                             }
                             endIndex++;
@@ -67,7 +67,7 @@ namespace Infrastructure.Models
                         {
                             if (_file1[j] == _file2[j])
                             {
-                                i = j + 1;
+                                i = j;
                                 break;
                             }
                             endIndex++;
@@ -93,7 +93,7 @@ namespace Infrastructure.Models
                         {
                             if (_file1[j] == _file2[j])
                             {
-                                i = j + 1;
+                                i = j;
                                 break;
                             }
                             endIndex++;
