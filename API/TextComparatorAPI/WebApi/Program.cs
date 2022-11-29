@@ -4,6 +4,7 @@ using Application.Services;
 using Domain.Interfaces;
 using Infrastructure.Data;
 using Infrastructure.Models;
+using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +18,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IComparatorService, ComparatorService>();
 builder.Services.AddScoped<IComparator, ByCharComparator>();
+builder.Services.AddScoped<IOutputFilesRepository, MSSMOutputFilesRepository>();
+builder.Services.AddScoped<IOutputFilesService, OutputFilesService>();
 builder.Services.AddSingleton(AutoMapperConfig.Initialize());
 
 builder.Services.AddDbContext<TextComparatorContext>(options =>

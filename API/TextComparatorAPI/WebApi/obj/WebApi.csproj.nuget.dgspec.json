@@ -1,39 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj": {
+    "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\wikar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Jakub Wrona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\wikar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jakub Wrona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj"
+              "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj"
               }
             }
           }
@@ -81,32 +84,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {
+    "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\wikar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Jakub Wrona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\wikar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jakub Wrona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,40 +146,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\wikar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Jakub Wrona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\wikar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jakub Wrona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj"
+              "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj"
               }
             }
           }
@@ -225,43 +234,46 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\wikar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\obj\\",
+        "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\Jakub Wrona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\wikar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jakub Wrona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj"
+              "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Application\\Application.csproj"
               },
-              "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -322,7 +334,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

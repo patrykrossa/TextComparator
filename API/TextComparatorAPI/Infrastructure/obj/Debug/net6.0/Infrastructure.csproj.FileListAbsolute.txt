@@ -68,3 +68,5 @@ C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAP
 C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
 C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAPI\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\Jakub Wrona\Desktop\Wszechświat\Studia\IO\TextComparator\API\TextComparatorAPI\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+C:\Users\Jakub Wrona\Desktop\Wszechświat\Studia\IO\TextComparator\API\TextComparatorAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache

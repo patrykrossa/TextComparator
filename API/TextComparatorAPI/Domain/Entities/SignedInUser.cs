@@ -10,5 +10,7 @@ namespace Domain.Entities
     public record SignedInUser : AuditableEntity
     {
         public Guid Id { get; set; }
+
+        public ICollection<OutputFile> Files { get; set; }
     }
 }
