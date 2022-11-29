@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    internal class StatisticsService
+    internal class StatisticsCalculatorService
     {
     }
 }

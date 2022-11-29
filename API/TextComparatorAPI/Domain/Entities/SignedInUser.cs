@@ -9,5 +9,6 @@ namespace Domain.Entities
 {
     public record SignedInUser : AuditableEntity
     {
+        public Guid Id { get; set; }
     }
 }
