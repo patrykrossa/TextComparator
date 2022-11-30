@@ -13,5 +13,7 @@ namespace Domain.Interfaces
 
         public Task<List<OutputFile>> GetUserFiles(Guid userId);
         public Task<OutputFile> DeleteFile(Guid fileId);
+        public Task<OutputFile> GetFileById(Guid fileId);
+        public Task UpdateFile(OutputFile file);
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aIvFrqlMFtQa3iBb0PymZUKD9qIH5DXx4RaFp1BgLAA=",
+  "Hash": "8uD4+o2WcaMpX00Oo+QcX9QGu8i+THzTnNDq/oTswf8=",
   "Source": "WebApi",
   "BasePath": "_content/WebApi",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\wwwroot\\Images\\0c2a8bde-7761-4632-81d6-f44271739638test1.txt",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "Images/0c2a8bde-7761-4632-81d6-f44271739638test1.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\0c2a8bde-7761-4632-81d6-f44271739638test1.txt"
+    },
     {
       "Identity": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\wwwroot\\Images\\27b9650d-558c-4293-8813-4aaa6eaaff31test1.txt",
       "SourceId": "WebApi",

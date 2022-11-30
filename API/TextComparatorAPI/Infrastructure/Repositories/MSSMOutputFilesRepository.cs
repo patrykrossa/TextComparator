@@ -26,7 +26,7 @@ namespace Infrastructure.Repositories
 
         public async Task<OutputFile> DeleteFile(Guid fileId)
         {
-            var fileToDelete = await _textComparatorContext.OutputFiles.FirstOrDefaultAsync(f => f.Id == fileId);
+            var fileToDelete = await _textComparatorContext.OutputFiles.SingleOrDefaultAsync(f => f.Id == fileId);
             if (fileToDelete != null) 
             {
                 _textComparatorContext.OutputFiles.Remove(fileToDelete);
@@ -37,9 +37,21 @@ namespace Infrastructure.Repositories
 
         }
 
+        public async Task<OutputFile> GetFileById(Guid fileId)
+        {
+            return await _textComparatorContext.OutputFiles.SingleOrDefaultAsync(f => f.Id == fileId);
+        }
+
         public async Task<List<OutputFile>> GetUserFiles(Guid userId)
         {
             return await _textComparatorContext.OutputFiles.Where(f => userId == f.UserId).ToListAsync();
+        }
+
+        public async Task UpdateFile(OutputFile file)
+        {
+            _textComparatorContext.OutputFiles.Update(file);
+            await _textComparatorContext.SaveChangesAsync();
+            await Task.CompletedTask;
         }
     }
 }
