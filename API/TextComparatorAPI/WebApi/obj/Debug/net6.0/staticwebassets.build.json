@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o3YKS5yzceGWJ3CVsSsXfsKUQNXFbO38mepEGqERI3U=",
+  "Hash": "7hXiTxvz02wO1Zn7GmoO5mx55kiyulg5SVTtDQJlEvo=",
   "Source": "WebApi",
   "BasePath": "_content/WebApi",
   "Mode": "Default",
@@ -10,10 +10,45 @@
     {
       "Name": "WebApi\\wwwroot",
       "Source": "WebApi",
-      "ContentRoot": "C:\\Users\\Jakub Wrona\\Desktop\\Wszechświat\\Studia\\IO\\TextComparator\\API\\TextComparatorAPI\\WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\wwwroot\\Images\\27542d3f-d7d2-4ffa-ab6b-f95f5e115cb5test1.txt",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "Images/27542d3f-d7d2-4ffa-ab6b-f95f5e115cb5test1.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\27542d3f-d7d2-4ffa-ab6b-f95f5e115cb5test1.txt"
+    },
+    {
+      "Identity": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\wwwroot\\Images\\a39d7147-7ee1-45e4-a66d-3ff3b1ded946test1.txt",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "Images/a39d7147-7ee1-45e4-a66d-3ff3b1ded946test1.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\a39d7147-7ee1-45e4-a66d-3ff3b1ded946test1.txt"
+    }
+  ]
 }

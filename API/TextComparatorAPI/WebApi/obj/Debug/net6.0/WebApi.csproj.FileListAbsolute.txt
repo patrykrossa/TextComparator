@@ -254,3 +254,4 @@ C:\Users\Jakub Wrona\Desktop\Wszechświat\Studia\IO\TextComparator\API\TextCompa
 C:\Users\Jakub Wrona\Desktop\Wszechświat\Studia\IO\TextComparator\API\TextComparatorAPI\WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApi.props
 C:\Users\Jakub Wrona\Desktop\Wszechświat\Studia\IO\TextComparator\API\TextComparatorAPI\WebApi\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\Jakub Wrona\Desktop\Wszechświat\Studia\IO\TextComparator\API\TextComparatorAPI\WebApi\bin\Debug\net6.0\WebApi.staticwebassets.runtime.json
+C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAPI\WebApi\bin\Debug\net6.0\WebApi.staticwebassets.runtime.json
