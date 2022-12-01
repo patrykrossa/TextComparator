@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GGD7QiEygOiS/fJaae40ICjV+Nsa8a8RNU8y/ZaDPj02qBJ8ZG1rlC3FYWw7cMHbW8pbCwHhltdWi3gNDjHUkQ==",
+  "dgSpecHash": "Mrqfz6+BfFFXwrZSQPCzhde+g2oOHriRGgCzmmKGFauK2D/69TWJQz/SQ23DnWrD3Fka9BIQyWYBEwbnsKotQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\Nowy folder\\TextComparator\\API\\TextComparatorAPI\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wikar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\wikar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\wikar\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
