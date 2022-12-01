@@ -13,5 +13,7 @@ namespace Domain.Interfaces
         public Task<SignedInUser> GetUserByUsernameAsync(string username);
         public Task<SignedInUser> LoginUserAsync(string username, string password); 
         public Task RegisterAsync(SignedInUser userData);
+        public Task UpdateUserAsync(SignedInUser updatedUser);
+        public Task DeleteUserAsync(SignedInUser userToRemove);
     }
 }

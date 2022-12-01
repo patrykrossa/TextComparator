@@ -40,5 +40,17 @@ namespace Infrastructure.Repositories
             await _context.Users.AddAsync(userData);
             await _context.SaveChangesAsync();
         }
+
+        public async Task UpdateUserAsync(SignedInUser updatedUser)
+        {
+            _context.Users.Update(updatedUser);
+            await _context.SaveChangesAsync();
+        }
+        public async Task DeleteUserAsync(SignedInUser userToRemove)
+        {
+            _context.Users.Remove(userToRemove);
+            await _context.SaveChangesAsync();
+        }
+
     }
 }

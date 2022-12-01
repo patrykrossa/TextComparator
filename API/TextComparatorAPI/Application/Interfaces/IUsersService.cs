@@ -9,7 +9,10 @@ namespace Application.Interfaces
 {
     public interface IUsersService
     {
-        Task<UserDto> Register(RegisterDto userData);
-        Task<UserDto> Login(LoginDto credentials);
+        Task<UserDto> RegisterAsync(RegisterDto userData);
+        Task<UserDto> LoginAsync(LoginDto credentials);
+        Task<UserDto> GetUserByIdAsync(Guid id);
+        Task<UserDto> UpdateUserAsync(UpdateUserDto updatedUser, Guid id);
+        Task DeleteUserAsync(Guid id);
     }
 }

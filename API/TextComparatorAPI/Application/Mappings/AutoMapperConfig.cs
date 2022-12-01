@@ -18,6 +18,7 @@ namespace Application.Mappings
                 cfg.CreateMap<OutputFile, OutputFileDto>().ConstructUsing(f => new OutputFileDto(f.UserId, f.Name, f.Path, f.Size, f.LastModifiedAt.ToString()));
                 cfg.CreateMap<RegisterDto, SignedInUser>();
                 cfg.CreateMap<SignedInUser, UserDto>();
+                cfg.CreateMap<UpdateUserDto, SignedInUser>();
             }).CreateMapper();
     }
 }
