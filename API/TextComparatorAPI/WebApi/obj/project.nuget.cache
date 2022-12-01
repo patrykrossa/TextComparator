@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sx6XPdF1EpTlXa0/Wx/umR7S95H5cvNcRhy2tOzBlqjt6gQ7rZUgC0/DOLWzx3kHRV0/E95Yuv59j+yQeZq0gw==",
+  "dgSpecHash": "ZZ1t8aS1RO8uiFaw5vDZDZJMi4nYiZBKomt9/0x1POiJaStjUUNBjNQpy7mpWd5t28OXeUXOce3ha35mM3Jbmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\Nowy folder\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\wikar\\OneDrive\\Pulpit\\PROGRAMOWANIE\\TextComparator\\API\\TextComparatorAPI\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wikar\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\wikar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

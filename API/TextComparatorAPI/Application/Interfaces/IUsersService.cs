@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.Dtos.UserDtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,7 @@ namespace Application.Interfaces
 {
     public interface IUsersService
     {
+        Task<UserDto> Register(RegisterDto userData);
+        Task<UserDto> Login(LoginDto credentials);
     }
 }

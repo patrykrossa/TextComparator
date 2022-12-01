@@ -351,3 +351,9 @@ C:\Users\wikar\OneDrive\Pulpit\Nowy folder\TextComparator\API\TextComparatorAPI\
 C:\Users\wikar\OneDrive\Pulpit\Nowy folder\TextComparator\API\TextComparatorAPI\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\Users\wikar\OneDrive\Pulpit\Nowy folder\TextComparator\API\TextComparatorAPI\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\Users\wikar\OneDrive\Pulpit\Nowy folder\TextComparator\API\TextComparatorAPI\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAPI\WebApi\bin\Debug\net6.0\WebApi.staticwebassets.runtime.json
+C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAPI\WebApi\obj\Debug\net6.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAPI\WebApi\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApi.props
+C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAPI\WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAPI\WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\Users\wikar\OneDrive\Pulpit\PROGRAMOWANIE\TextComparator\API\TextComparatorAPI\WebApi\obj\Debug\net6.0\staticwebassets.pack.json

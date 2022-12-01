@@ -1,4 +1,5 @@
 ﻿using Application.Dtos.OutputFilesDtos;
+using Application.Dtos.UserDtos;
 using AutoMapper;
 using Domain.Entities;
 using System;
@@ -15,7 +16,8 @@ namespace Application.Mappings
             => new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<OutputFile, OutputFileDto>().ConstructUsing(f => new OutputFileDto(f.UserId, f.Name, f.Path, f.Size, f.LastModifiedAt.ToString()));
-               //cfg.CreateMap<>
+                cfg.CreateMap<RegisterDto, SignedInUser>();
+                cfg.CreateMap<SignedInUser, UserDto>();
             }).CreateMapper();
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Dtos.OutputFilesDtos
 {
-    public class AddFileDto
+    public record AddFileDto
     {
         public IFormFile File { get; set; }
         public Guid UserId { get; set; }

@@ -20,8 +20,13 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IComparatorService, ComparatorService>();
 builder.Services.AddScoped<IComparator, ByCharComparator>();
+
 builder.Services.AddScoped<IOutputFilesRepository, MSSMOutputFilesRepository>();
 builder.Services.AddScoped<IOutputFilesService, OutputFilesService>();
+
+builder.Services.AddScoped<IUsersRepository, MSSMUserRepository>();
+builder.Services.AddScoped<IUsersService, UsersService>();
+
 builder.Services.AddSingleton(AutoMapperConfig.Initialize());
 builder.Services.AddTransient<ExceptionHandlingMiddleware>();
 

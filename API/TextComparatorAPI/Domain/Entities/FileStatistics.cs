@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal record FileStatistics : AuditableEntity
+    public record FileStatistics : AuditableEntity
     {
     }
 }
