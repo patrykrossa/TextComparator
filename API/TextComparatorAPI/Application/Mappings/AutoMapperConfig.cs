@@ -1,4 +1,4 @@
-﻿using Application.Dtos;
+﻿using Application.Dtos.OutputFilesDtos;
 using AutoMapper;
 using Domain.Entities;
 using System;
@@ -14,7 +14,7 @@ namespace Application.Mappings
         public static IMapper Initialize()
             => new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<OutputFile, OutputFileDto>().ConstructUsing(f => new OutputFileDto(f.UserId, f.Name, f.Path));
+                cfg.CreateMap<OutputFile, OutputFileDto>().ConstructUsing(f => new OutputFileDto(f.UserId, f.Name, f.Path, f.Size, f.LastModifiedAt.ToString()));
                //cfg.CreateMap<>
             }).CreateMapper();
     }

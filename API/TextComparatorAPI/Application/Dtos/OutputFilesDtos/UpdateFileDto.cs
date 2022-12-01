@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Dtos
+namespace Application.Dtos.OutputFilesDtos
 {
-    public class AddFileDto
+    public class UpdateFileDto
     {
         public IFormFile File { get; set; }
-        public Guid UserId { get; set; }
+        public Guid FileId { get; set; }
     }
 }

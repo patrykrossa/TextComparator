@@ -6,6 +6,8 @@ using Infrastructure.Data;
 using Infrastructure.Models;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
+using WebApi.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,7 @@ builder.Services.AddScoped<IComparator, ByCharComparator>();
 builder.Services.AddScoped<IOutputFilesRepository, MSSMOutputFilesRepository>();
 builder.Services.AddScoped<IOutputFilesService, OutputFilesService>();
 builder.Services.AddSingleton(AutoMapperConfig.Initialize());
+builder.Services.AddTransient<ExceptionHandlingMiddleware>();
 
 builder.Services.AddDbContext<TextComparatorContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("TextComparatorCS")));
@@ -35,6 +38,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseStaticFiles(); // For the wwwroot folder
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseHttpsRedirection();
 

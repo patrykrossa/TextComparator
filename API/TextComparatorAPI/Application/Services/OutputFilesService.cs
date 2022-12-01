@@ -1,7 +1,8 @@
-﻿using Application.Dtos;
+﻿using Application.Dtos.OutputFilesDtos;
 using Application.Interfaces;
 using AutoMapper;
 using Domain.Entities;
+using Domain.Exceptions;
 using Domain.Interfaces;
 using Microsoft.AspNetCore.Http;
 using System;
@@ -21,17 +22,68 @@ namespace Application.Services
             _outputFilesRepository = outputFilesRepository;
             _mapper = mapper;
         }
-        public async Task<OutputFileDto> AddFile(string fileName, string path, Guid UserId)
+        public async Task<OutputFileDto> AddFile(AddFileDto file, string path)
         {
-            var file = new OutputFile{
-                Name = fileName,
+            var newFile = new OutputFile{
+                Name = file.File.Name,
                 Path = path,
-                UserId = UserId
+                Size = (int)file.File.Length,
+                UserId = file.UserId
+                
                 };
 
-            await _outputFilesRepository.AddFile(file);
+            await _outputFilesRepository.AddFile(newFile);
 
             return _mapper.Map<OutputFileDto>(file);
         }
+
+        public async Task DeleteFile(Guid fileId)
+        {
+            var file = await _outputFilesRepository.DeleteFile(fileId);
+            if (file is null)
+            {
+                throw new OutputFileNotFoundException(fileId);
+                
+            }
+
+            File.Delete(file.Path);
+            await Task.CompletedTask;
+
+        }
+
+        public async Task<OutputFileDto> GetFileById(Guid fileId)
+        {
+            var file = await _outputFilesRepository.GetFileById(fileId);
+            if (file is null)
+            {
+                throw new OutputFileNotFoundException(fileId);
+            }
+
+            return _mapper.Map<OutputFileDto>(file);
+        }
+
+        public async Task<List<OutputFileDto>> GetUserFiles(Guid userId)
+        {
+            var files =  await _outputFilesRepository.GetUserFiles(userId);
+            return _mapper.Map<List<OutputFileDto>>(files);
+        }
+
+        public async Task<OutputFileDto> UpdateFile(UpdateFileDto file, string path)
+        {
+            var fileToUpdate = await _outputFilesRepository.GetFileById(file.FileId);
+
+            fileToUpdate.Size = (int)file.File.Length;
+            fileToUpdate.Name = file.File.FileName;
+            fileToUpdate.Path = path;
+
+            await _outputFilesRepository.UpdateFile(fileToUpdate);
+
+            
+            return _mapper.Map<OutputFileDto>(fileToUpdate); 
+
+
+        }
+
+
     }
 }

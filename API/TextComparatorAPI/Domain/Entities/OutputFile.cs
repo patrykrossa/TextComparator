@@ -13,7 +13,7 @@ namespace Domain.Entities
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Path { get; set; }
-
+        public int Size { get; set; }
         public Guid UserId { get; set; }
         public SignedInUser User { get; set; }
     }
