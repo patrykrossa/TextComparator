@@ -83,6 +83,23 @@ export const CompareSection = () => {
       });
   };
 
+  const handleGenerate = async () => {
+    if (localStorage.getItem("userId")) {
+      const userID = localStorage.getItem("userId");
+      var bodyFormData = new FormData();
+      bodyFormData.append("UserId", userID!);
+      bodyFormData.append("File", file1!);
+      await axios({
+        method: "post",
+        url: "https://localhost:44307/outputFiles",
+        data: bodyFormData,
+        headers: { "Content-Type": "multipart/form-data" },
+      })
+        .then((res: any) => console.log(res))
+        .catch((e: any) => console.log(e));
+    }
+  };
+
   useEffect(() => {
     if (
       state1 === StateOptions.READY_TO_COMPARE &&
@@ -199,6 +216,7 @@ export const CompareSection = () => {
                   justifyContent="center"
                   alignItems="center"
                   cursor="pointer"
+                  onClick={handleGenerate}
                 >
                   GENERATE
                 </Flex>

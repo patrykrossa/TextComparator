@@ -28,7 +28,12 @@ export const Navlinks = () => {
         FAQ
       </Box>
       {logged ? (
-        <Link href="/profile">{localStorage.getItem("user")}</Link>
+        <Link
+          href="/profile"
+          _hover={{ textDecoration: "none", color: colors.PRIMARY2 }}
+        >
+          {localStorage.getItem("user")}
+        </Link>
       ) : (
         <Box
           cursor="pointer"
