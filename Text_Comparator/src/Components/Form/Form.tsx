@@ -28,10 +28,9 @@ export const Form = ({
     await axios
       .post("https://localhost:44307/users/login", data)
       .then((res: any) => {
-        console.log(res.data.username);
-
         localStorage.setItem("user", res.data.username);
         localStorage.setItem("userId", res.data.id);
+        localStorage.setItem("password", password.toString());
         setIsOpen(false);
       })
       .catch((e: any) => setResponse("Invalid data, try again!"));

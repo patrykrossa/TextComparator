@@ -30,6 +30,7 @@ export const ProfileNav = () => {
         onClick={() => {
           localStorage.removeItem("user");
           localStorage.removeItem("userId");
+          localStorage.removeItem("password");
         }}
       >
         Logout

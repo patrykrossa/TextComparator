@@ -70,7 +70,6 @@ export const CompareSection = () => {
         //handle success
         setState1(StateOptions.COMPARING);
         setState2(StateOptions.COMPARING);
-        console.log(response.request.response);
         const diff = JSON.parse(response.request.response);
         const arr: any[] = [];
         diff.forEach((element: any) => {
@@ -93,9 +92,7 @@ export const CompareSection = () => {
     }
   }, [state1, state2]);
 
-  const onDrop = (file: any) => {
-    console.log(file);
-  };
+  const onDrop = (file: any) => {};
 
   return (
     <Flex

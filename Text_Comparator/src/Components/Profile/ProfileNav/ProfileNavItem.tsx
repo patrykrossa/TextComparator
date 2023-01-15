@@ -12,8 +12,6 @@ export const ProfileNavItem = ({
 }) => {
   const location = useLocation();
 
-  console.log(location.pathname);
-
   return (
     <Link
       href={path}
