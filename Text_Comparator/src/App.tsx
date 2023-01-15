@@ -1,8 +1,8 @@
 import * as React from "react";
 import { ChakraProvider, extendTheme, Flex } from "@chakra-ui/react";
 import { colors } from "./config";
-import { Navbar } from "./Components/Navbar/Navbar";
-import { CompareSection } from "./Components/CompareSection/compareSection";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./AppWrapper";
 
 const theme = extendTheme({
   colors: {
@@ -42,8 +42,9 @@ export const App = () => (
       alignItems="flex-start"
       flexDirection="column"
     >
-      <Navbar />
-      <CompareSection />
+      <RouterProvider router={router} />
+      {/* <Navbar />
+      <CompareSection /> */}
     </Flex>
   </ChakraProvider>
 );

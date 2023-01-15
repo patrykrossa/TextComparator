@@ -1,4 +1,4 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import { colors } from "../../config";
 import { Navlinks } from "./Navlinks";
@@ -12,14 +12,15 @@ export const Navbar = () => {
       py="20px"
       position="relative"
     >
-      <Text
+      <Link
         bgGradient={`linear-gradient(90deg, ${colors.SECONDARY} 0%, ${colors.PRIMARY} 35.42%)"`}
         bgClip="text"
         fontWeight="800"
         fontSize="27px"
+        href="/"
       >
         TEXTCOMPARATOR
-      </Text>
+      </Link>
       <Navlinks />
       <Box
         h="2px"

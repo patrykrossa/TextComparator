@@ -1,9 +1,17 @@
-import { Box, Flex } from "@chakra-ui/react";
-import React from "react";
+import { Box, Flex, Link } from "@chakra-ui/react";
+import React, { useState, useEffect } from "react";
 import { colors } from "../../config";
 import { LightThemeIcon } from "../../Icons/lightThemeIcon";
+import { Form } from "../Form/Form";
 
 export const Navlinks = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [logged, setLogged] = useState<boolean>(false);
+
+  useEffect(() => {
+    setLogged(localStorage.getItem("user") !== null);
+  }, [localStorage.getItem("user")]);
+
   return (
     <Flex
       fontSize="16px"
@@ -12,15 +20,24 @@ export const Navlinks = () => {
       alignItems="center"
       justifyContent="center"
     >
+      {isOpen && <Form isOpen={isOpen} setIsOpen={setIsOpen} />}
       <Box cursor="pointer" _hover={{ opacity: 0.6 }}>
         <LightThemeIcon />
       </Box>
       <Box cursor="pointer" _hover={{ color: colors.PRIMARY2 }}>
         FAQ
       </Box>
-      <Box cursor="pointer" _hover={{ color: colors.PRIMARY2 }}>
-        Sign in
-      </Box>
+      {logged ? (
+        <Link href="/profile">{localStorage.getItem("user")}</Link>
+      ) : (
+        <Box
+          cursor="pointer"
+          _hover={{ color: colors.PRIMARY2 }}
+          onClick={() => setIsOpen(true)}
+        >
+          Sign in
+        </Box>
+      )}
     </Flex>
   );
 };
