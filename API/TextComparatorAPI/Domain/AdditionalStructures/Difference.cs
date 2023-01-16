@@ -18,5 +18,12 @@ namespace Domain.AdditionalStructures
             EndIndex = endIndex;
             Length = length;
         }
+        public bool isEqual( Difference other )
+        {
+            if (StartIndex == other.StartIndex && EndIndex == other.EndIndex && Length == other.Length)
+                return true;
+            else
+                return false;
+        }
     }
 }
